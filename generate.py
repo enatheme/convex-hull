@@ -10,4 +10,5 @@ for x in range(100):
 	else:
 		x = x - 1
 		print(str(a) + " " + str(b))
+		#print("%s %s" % (str(a),str(b)))
 file.close()
