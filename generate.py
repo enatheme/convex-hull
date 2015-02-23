@@ -9,6 +9,5 @@ for x in range(100):
 		file.write(str(a) + " " + str(b) + "\n")
 	else:
 		x = x - 1
-		print(str(a) + " " + str(b))
-		#print("%s %s" % (str(a),str(b)))
+		print("%s %s" % (str(a),str(b)))
 file.close()
